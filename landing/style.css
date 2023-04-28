@@ -1,0 +1,123 @@
+/* Write some CSS below */
+h2{color: #4DA1A9;
+font-family: 'Bruno Ace', cursive;}
+body {
+  font-family: Overpass;
+  font-size: 18px;}
+
+h1{
+Font-size: 50px;
+	color: white;
+text-align: center;
+font-family: 'Bruno Ace', cursive;
+text-decoration-line: underline; }
+
+p{
+	font-size: 30;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-style: italic ;
+	color : white;
+	padding: 25px;
+}
+
+h3{
+Font-size: 15px;
+font-family: 'Merriweather', serif;}
+
+.banner{
+  background-image: url("images/colis.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding: 30px;
+}
+
+.banner a{
+	background-color: white;
+	background-position: center;
+	text-align: center;
+	padding: 15px;
+	border-radius: 5px;
+	color: #1A48E3;
+	margin: 15px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-}
+}
+
+.banner p{
+	padding: 10px;
+	margin : 30px;
+}
+
+.footer p{ 
+	color: black;
+}
+
+.cards{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-gap:16px;}
+	
+.section1{
+	border: 4px solid grey;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     border-radius: 4px;
+     padding: 10px;
+     margin : 10px;
+     width: 400px;
+     text-align: center;
+}
+
+.section2{
+	border: 4px solid grey;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     border-radius: 4px;
+     padding: 10px;
+     margin : 10px;
+     width: 400px;
+     text-align: center;
+}
+
+.section3{
+	border: 4px solid grey;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     border-radius: 4px;
+     padding: 10px;
+     margin : 10px;
+     width: 4	00px;
+     text-align: center;
+}
+
+.section3 h3{
+	ertical-align: middle;
+}
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
